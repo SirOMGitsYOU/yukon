@@ -107,6 +107,12 @@ const rooms = {
         x: 770,
         y: 400
     },
+    803: {
+        key: 'HQ',
+        scene: require('@rooms/hq/HQ').default,
+        x: 241,
+        y: 617
+    },
     805: {
         key: 'Berg',
         scene: require('@rooms/berg/Berg').default,
