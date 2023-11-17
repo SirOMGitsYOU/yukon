@@ -1,0 +1,145 @@
+{
+    "id": "6a7c0859-cac5-437a-aaf5-d152fd6cad1f",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Mine"
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "9a3fd7a0-4519-49c8-b746-489b11324046",
+            "label": "mine_background_png",
+            "texture": {
+                "key": "mine",
+                "frame": "mine-background.png"
+            }
+        },
+        {
+            "type": "Sprite",
+            "id": "dae96e9e-f20d-40b5-b068-a402f6bb1411",
+            "label": "goldminemine_goldmine",
+            "texture": {
+                "key": "mine",
+                "frame": "mine-goldmine0001.png"
+            },
+            "x": 5,
+            "y": -251,
+            "animationPlayMethod": 1,
+            "animationKey": "goldminemine-goldmine"
+        },
+        {
+            "type": "Image",
+            "id": "eeb73675-3a00-4afa-9fcd-1a6310327c88",
+            "label": "mine_lights_png",
+            "texture": {
+                "key": "mine",
+                "frame": "mine-lights.png"
+            },
+            "x": 39,
+            "y": -321
+        },
+        {
+            "type": "Image",
+            "id": "7d9bbaa4-1c70-4ce0-aac7-c0b27e1e1839",
+            "label": "mine_prgoldmineandtracks_png",
+            "texture": {
+                "key": "mine",
+                "frame": "mine-prgoldmineandtracks.png"
+            },
+            "x": 134,
+            "y": -197
+        },
+        {
+            "type": "Image",
+            "id": "82922c46-2cb4-4c1c-a876-8717cbce08a2",
+            "label": "mine_cartsandrocks_png",
+            "texture": {
+                "key": "mine",
+                "frame": "mine-cartsandrocks.png"
+            },
+            "x": 176,
+            "y": -157
+        },
+        {
+            "type": "Image",
+            "id": "90f1b691-0fc4-4b05-94c8-1b1005662607",
+            "label": "mine_prtable_png",
+            "texture": {
+                "key": "mine",
+                "frame": "mine-prtable.png"
+            },
+            "x": -174,
+            "y": -135
+        },
+        {
+            "type": "Image",
+            "id": "5a8932ab-0071-4c23-a874-8f39d39fa414",
+            "label": "mine_foreground_png",
+            "texture": {
+                "key": "mine",
+                "frame": "mine-foreground.png"
+            },
+            "x": 3,
+            "y": -9
+        },
+        {
+            "type": "Sprite",
+            "id": "1c8ce1cc-569e-40b6-886c-a973157d07a2",
+            "label": "phonemine_prphone",
+            "texture": {
+                "key": "mine",
+                "frame": "mine-prphone0001.png"
+            },
+            "x": -223,
+            "y": -137,
+            "animationPlayMethod": 1,
+            "animationKey": "phonemine-prphone"
+        },
+        {
+            "type": "Sprite",
+            "id": "8ced852c-c029-4441-829d-f5ce8f6a0583",
+            "label": "bulbmine_bulb",
+            "texture": {
+                "key": "mine",
+                "frame": "mine-bulb0001.png"
+            },
+            "x": 63,
+            "y": -305,
+            "animationPlayMethod": 1,
+            "animationKey": "bulbmine-bulb"
+        },
+        {
+            "type": "Image",
+            "id": "b342efb9-0e44-48b8-893f-0b4bb3cb47c1",
+            "label": "mine_puffleshadow_png",
+            "texture": {
+                "key": "mine",
+                "frame": "mine-puffleshadow.png"
+            },
+            "x": -119,
+            "y": -130
+        },
+        {
+            "type": "Sprite",
+            "id": "ba1babf5-8e9d-4950-bd03-d79f1a4375c5",
+            "label": "pufflemine_puffle",
+            "texture": {
+                "key": "mine",
+                "frame": "mine-puffle0001.png"
+            },
+            "x": -119,
+            "y": -146,
+            "animationPlayMethod": 1,
+            "animationKey": "pufflemine-puffle"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}
