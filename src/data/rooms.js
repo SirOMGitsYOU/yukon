@@ -150,6 +150,10 @@ const rooms = {
     998: {
         key: 'CardJitsu',
         scene: require('@rooms/../games/card/CardJitsu').default
+    },
+    999: {
+        key: 'Sled',
+        scene: require('@rooms/../games/sled/Sled').default
     }
 }
 
