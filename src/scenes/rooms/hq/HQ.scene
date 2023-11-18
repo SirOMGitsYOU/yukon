@@ -1,0 +1,131 @@
+{
+    "id": "d4e5e78d-3ee7-4793-8eef-6fd75f22ad15",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/rooms/old/hq/hq-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "HQ",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "2edbcfe5-a240-4b44-b8b5-058e7547183c",
+            "label": "background",
+            "components": [],
+            "texture": {
+                "key": "hq",
+                "frame": "background.png"
+            },
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "b06d534f-a429-4af3-910f-fc19db4b6a71",
+            "label": "cabinet",
+            "components": [],
+            "texture": {
+                "key": "hq",
+                "frame": "cabinet0001.png"
+            },
+            "x": 1466,
+            "y": 593
+        },
+        {
+            "type": "Sprite",
+            "id": "09c080de-9c72-4730-8ebe-555df363a040",
+            "label": "door",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton",
+                "MoveTo"
+            ],
+            "SimpleButton.hoverCallback": "() => this.door.play('door')",
+            "texture": {
+                "key": "hq",
+                "frame": "door-open0001.png"
+            },
+            "x": 181,
+            "y": 585.5859485489623,
+            "originY": 0.9232262532986235
+        },
+        {
+            "type": "Image",
+            "id": "80a5f1f2-ed77-4935-b909-d220dcf7c749",
+            "label": "greenchair",
+            "components": [],
+            "texture": {
+                "key": "hq",
+                "frame": "greenchair.png"
+            },
+            "x": 608,
+            "y": 596
+        },
+        {
+            "type": "Image",
+            "id": "bdf2347c-baef-4c79-bf00-b2d2f548ec18",
+            "label": "redchair",
+            "components": [],
+            "texture": {
+                "key": "hq",
+                "frame": "redchair.png"
+            },
+            "x": 943,
+            "y": 607
+        },
+        {
+            "type": "Image",
+            "id": "a2424d65-a629-4fca-a9f6-c4e1abfe07fe",
+            "label": "fishCatalog",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => this.interface.loadWidget('PSAFish')",
+            "texture": {
+                "key": "hq",
+                "frame": "FishCatalog0001.png"
+            },
+            "x": 1400,
+            "y": 791
+        },
+        {
+            "type": "Image",
+            "id": "5905558a-0954-4d51-bd59-c46e07733df6",
+            "label": "missionsButton",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => this.interface.loadWidget('PSAMission')",
+            "texture": {
+                "key": "hq",
+                "frame": "MissionsButton0001.png"
+            },
+            "x": 1415,
+            "y": 899
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "1e3d1d79-bbc9-4969-8105-70209fd3fab9",
+            "label": "sort"
+        }
+    ]
+}
