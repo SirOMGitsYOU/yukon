@@ -4,7 +4,9 @@
     "settings": {
         "preloadPackFiles": [],
         "createMethodName": "editorCreate",
-        "sceneKey": "Mine"
+        "sceneKey": "Mine",
+        "borderWidth": 1520,
+        "borderHeight": 960
     },
     "displayList": [
         {
@@ -14,7 +16,9 @@
             "texture": {
                 "key": "mine",
                 "frame": "mine-background.png"
-            }
+            },
+            "x": 762,
+            "y": 487
         },
         {
             "type": "Sprite",
@@ -24,8 +28,8 @@
                 "key": "mine",
                 "frame": "mine-goldmine0001.png"
             },
-            "x": 5,
-            "y": -251,
+            "x": 767,
+            "y": 236,
             "animationPlayMethod": 1,
             "animationKey": "goldminemine-goldmine"
         },
@@ -37,8 +41,8 @@
                 "key": "mine",
                 "frame": "mine-lights.png"
             },
-            "x": 39,
-            "y": -321
+            "x": 801,
+            "y": 166
         },
         {
             "type": "Image",
@@ -48,8 +52,8 @@
                 "key": "mine",
                 "frame": "mine-prgoldmineandtracks.png"
             },
-            "x": 134,
-            "y": -197
+            "x": 896,
+            "y": 290
         },
         {
             "type": "Image",
@@ -59,8 +63,8 @@
                 "key": "mine",
                 "frame": "mine-cartsandrocks.png"
             },
-            "x": 176,
-            "y": -157
+            "x": 938,
+            "y": 330
         },
         {
             "type": "Image",
@@ -70,8 +74,8 @@
                 "key": "mine",
                 "frame": "mine-prtable.png"
             },
-            "x": -174,
-            "y": -135
+            "x": 588,
+            "y": 352
         },
         {
             "type": "Image",
@@ -81,8 +85,8 @@
                 "key": "mine",
                 "frame": "mine-foreground.png"
             },
-            "x": 3,
-            "y": -9
+            "x": 765,
+            "y": 478
         },
         {
             "type": "Sprite",
@@ -92,8 +96,8 @@
                 "key": "mine",
                 "frame": "mine-prphone0001.png"
             },
-            "x": -223,
-            "y": -137,
+            "x": 539,
+            "y": 350,
             "animationPlayMethod": 1,
             "animationKey": "phonemine-prphone"
         },
@@ -105,8 +109,8 @@
                 "key": "mine",
                 "frame": "mine-bulb0001.png"
             },
-            "x": 63,
-            "y": -305,
+            "x": 825,
+            "y": 182,
             "animationPlayMethod": 1,
             "animationKey": "bulbmine-bulb"
         },
@@ -118,8 +122,8 @@
                 "key": "mine",
                 "frame": "mine-puffleshadow.png"
             },
-            "x": -119,
-            "y": -130
+            "x": 643,
+            "y": 357
         },
         {
             "type": "Sprite",
@@ -129,8 +133,8 @@
                 "key": "mine",
                 "frame": "mine-puffle0001.png"
             },
-            "x": -119,
-            "y": -146,
+            "x": 643,
+            "y": 341,
             "animationPlayMethod": 1,
             "animationKey": "pufflemine-puffle"
         }
